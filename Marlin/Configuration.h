@@ -1202,7 +1202,7 @@
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
 
-#define INVERT_E0_DIR false // true for standard, now converted to direct drive
+#define INVERT_E0_DIR true // true for standard, now converted to direct drive
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1717,7 +1717,7 @@
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
-#define PREHEAT_2_TEMP_HOTEND 235
+#define PREHEAT_2_TEMP_HOTEND 230
 #define PREHEAT_2_TEMP_BED    80
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
